@@ -57,10 +57,10 @@ print(results)
 # [{'label': '5 stars', 'score': 0.5550}, {'label': '1 star', 'score': 0.7954}]
 ```
 
-**Failure case**
--Input: "Dherai ramro song chha ❤❤"
--Output: {'label': '1 star', 'score': 0.28}
--This is Romanized Nepali comment with very positive rating but BERT fails to capture
+- Failure case
+  - Input: "Dherai ramro song chha ❤❤"
+  - Output: {'label': '1 star', 'score': 0.28}
+  - This is Romanized Nepali comment with very positive rating but BERT fails to capture
 **Processing steps**
 - Dropped Romanized Nepali and unknown/symbolic comments
 - Retained only Nepali and English comments
