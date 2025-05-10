@@ -42,6 +42,7 @@ from textblob import TextBlob
 text = TextBlob("Songs are really nice heart touching plz we need other songs as well plzzz 🙏🙏")
 print(text.sentiment)
 # Sentiment(polarity=0.24375, subjectivity=0.71875)
+```
 
 ## 2. **Multilingual BERT via Hugging Face Transformers**
 - Supports: Neplai (Devnagari), English, and several South Asian and European languages
