@@ -55,6 +55,7 @@ sentiment_pipeline = pipeline("sentiment-analysis", model="nlptown/bert-base-mul
 results = sentiment_pipeline(["मलाई यो गीत धेरै राम्रो लाग्यो।", "I hated this movie."])
 print(results)
 # [{'label': '5 stars', 'score': 0.5550}, {'label': '1 star', 'score': 0.7954}]
+```
 
 **Failure case**
 Input: "Dherai ramro song chha ❤❤"
